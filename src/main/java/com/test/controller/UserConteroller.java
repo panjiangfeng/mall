@@ -149,7 +149,6 @@ public class UserConteroller {
         User usertarge = userMapper.selectOne(wrapper);  //符合条件可以修改用户
         if (usertarge == null) {
             //用户名不重复，执行修改
-
             user.setUsername(username);
             user.setPassword(password);
             user.setEmail(email);

@@ -43,8 +43,11 @@ public class OrderController {
         userorder.setIssend(1);
         int count = userorderMapper.updateById(userorder);
         String str;
-        if(count>0)str ="success";
-        else str = "false";
+        if(count>0) {
+            str ="success";
+        } else {
+            str = "false";
+        }
         return str;
 
     }
@@ -53,8 +56,11 @@ public class OrderController {
     public String  deleteorder(@RequestParam("orderid") Long orderid){
         int i = userorderMapper.deleteById(orderid);
         String str;
-        if(i>0)str ="success";
-        else str = "false";
+        if(i>0) {
+            str ="success";
+        } else {
+            str = "false";
+        }
         return str;
     }
 
