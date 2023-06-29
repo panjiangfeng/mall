@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 @RestController
 public class GoodsController {
@@ -215,8 +216,9 @@ public class GoodsController {
         QueryWrapper<Goodsimg> wrapper = new QueryWrapper<>();
         wrapper.eq("goodsimg", "test");
         Goodsimg goodsimg1 = goodsimgMapper.selectOne(wrapper);
-        Long random = goodsimg1.getImgtableid();
-        goodsimg1.setGoodsimg("/goodsimg/goodsimg" + goodsid + "(" + random + ").jpg");
+
+        String uuid = UUID.randomUUID().toString();
+        goodsimg1.setGoodsimg("/goodsimg/"  + uuid + ".jpg");
         goodsimgMapper.updateById(goodsimg1);
         //上传文件
         String currentPath = System.getProperty("user.dir");
@@ -224,7 +226,7 @@ public class GoodsController {
         if (!path.exists()) {
             path.mkdir();
         }
-        File tofile = new File(path, "goodsimg" + goodsid + "(" + random + ").jpg");
+        File tofile = new File(path,  uuid + ".jpg");
         try {
             file.transferTo(tofile);
             return "success";

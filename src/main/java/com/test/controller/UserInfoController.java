@@ -15,6 +15,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
+import java.util.UUID;
 
 @RestController
 public class UserInfoController {
@@ -68,26 +69,27 @@ public class UserInfoController {
     @RequestMapping("/uploadtximg")            //头像图片上传
     public String uploadtximg(@RequestParam("file") MultipartFile file,
                               String id){
+        String uuid = UUID.randomUUID().toString();
         String currentPath=System.getProperty("user.dir");
         File path = new File(currentPath+"/tximg"); //服务器地址
-//        File path = new File("/Users/renshuaiweidemac/Desktop/毕设/YG_java/img");
         if(!path.exists()){
             path.mkdir();
         }
-        File tofile = new File(path,id+"tximg.jpg"); //用id命名
+        File tofile = new File(path,uuid+".jpg"); //用id命名
         try {
             file.transferTo(tofile);
 //           存入userinfo表中"/tximg/"+id+"tximg.jpg"
             QueryWrapper<Userinfo> wrapper = new QueryWrapper<>();
             wrapper.eq("id",id);
             Userinfo userinfo = userinfoMapper.selectOne(wrapper);
-            userinfo.setTximg("/tximg/"+id+"tximg.jpg");
+            userinfo.setTximg("/tximg/"+uuid+".jpg");
             int result= userinfoMapper.updateById(userinfo);
             if(result!=0){
                 return "success";
             }
             return "false";
         }catch (IOException e){
+            System.out.println(e.getMessage());
             e.printStackTrace();
             return "false";
         }

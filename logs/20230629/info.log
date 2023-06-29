@@ -35,3 +35,213 @@
 2023-06-29 10:10:47.038 [http-nio-9000-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-06-29 10:10:47.039 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2023-06-29 10:10:47.043 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-06-29 12:40:44.436 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-29 12:40:44.441 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-06-29 12:40:53.531 [main] INFO  com.test.FinalprojectApplication - Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 22948 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-29 12:40:53.533 [main] INFO  com.test.FinalprojectApplication - No active profile set, falling back to default profiles: default
+2023-06-29 12:40:54.219 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+2023-06-29 12:40:54.226 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-29 12:40:54.226 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-29 12:40:54.227 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-29 12:40:54.227 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-29 12:40:54.227 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-29 12:40:54.227 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-29 12:40:55.275 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-29 12:40:55.329 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-29 12:40:55.329 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1768 ms
+2023-06-29 12:40:55.453 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-29 12:40:55.538 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-29 12:40:56.035 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-29 12:40:56.041 [main] INFO  com.test.FinalprojectApplication - Started FinalprojectApplication in 2.795 seconds (JVM running for 4.206)
+2023-06-29 12:41:17.710 [http-nio-9000-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-29 12:41:17.710 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-29 12:41:17.712 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-06-29 12:41:39.791 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-29 12:41:39.797 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-06-29 12:41:45.370 [main] INFO  com.test.FinalprojectApplication - Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 15708 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-29 12:41:45.372 [main] INFO  com.test.FinalprojectApplication - No active profile set, falling back to default profiles: default
+2023-06-29 12:41:46.245 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+2023-06-29 12:41:46.261 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-29 12:41:46.262 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-29 12:41:46.263 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-29 12:41:46.263 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-29 12:41:46.263 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-29 12:41:46.263 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-29 12:41:47.307 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-29 12:41:47.350 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-29 12:41:47.350 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1946 ms
+2023-06-29 12:41:47.471 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-29 12:41:47.551 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-29 12:41:48.030 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-29 12:41:48.037 [main] INFO  com.test.FinalprojectApplication - Started FinalprojectApplication in 2.969 seconds (JVM running for 4.507)
+2023-06-29 12:42:04.875 [http-nio-9000-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-29 12:42:04.876 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-29 12:42:04.878 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-06-29 12:43:57.143 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-29 12:43:57.149 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-06-29 12:44:06.325 [main] INFO  com.test.FinalprojectApplication - Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 18436 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-29 12:44:06.327 [main] INFO  com.test.FinalprojectApplication - No active profile set, falling back to default profiles: default
+2023-06-29 12:44:07.037 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+2023-06-29 12:44:07.042 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-29 12:44:07.042 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-29 12:44:07.043 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-29 12:44:07.044 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-29 12:44:07.044 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-29 12:44:07.044 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-29 12:44:08.087 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-29 12:44:08.135 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-29 12:44:08.135 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1779 ms
+2023-06-29 12:44:08.261 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-29 12:44:08.336 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-29 12:44:08.799 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-29 12:44:08.806 [main] INFO  com.test.FinalprojectApplication - Started FinalprojectApplication in 2.752 seconds (JVM running for 4.34)
+2023-06-29 12:44:15.690 [http-nio-9000-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-29 12:44:15.690 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-29 12:44:15.692 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-06-29 17:00:03.339 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-29 17:00:03.343 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-06-29 17:00:10.924 [main] INFO  com.test.FinalprojectApplication - Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 4016 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-29 17:00:10.926 [main] INFO  com.test.FinalprojectApplication - No active profile set, falling back to default profiles: default
+2023-06-29 17:00:11.637 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+2023-06-29 17:00:11.642 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-29 17:00:11.642 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-29 17:00:11.643 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-29 17:00:11.643 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-29 17:00:11.644 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-29 17:00:11.644 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-29 17:00:12.679 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-29 17:00:12.723 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-29 17:00:12.723 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1769 ms
+2023-06-29 17:00:12.833 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-29 17:00:12.910 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-29 17:00:13.413 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-29 17:00:13.419 [main] INFO  com.test.FinalprojectApplication - Started FinalprojectApplication in 2.75 seconds (JVM running for 4.287)
+2023-06-29 17:00:17.305 [http-nio-9000-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-29 17:00:17.305 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-29 17:00:17.306 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-06-29 17:02:24.296 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-29 17:02:24.303 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-06-29 17:02:34.039 [main] INFO  com.test.FinalprojectApplication - Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 18324 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-29 17:02:34.041 [main] INFO  com.test.FinalprojectApplication - No active profile set, falling back to default profiles: default
+2023-06-29 17:02:34.769 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+2023-06-29 17:02:34.775 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-29 17:02:34.776 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-29 17:02:34.777 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-29 17:02:34.777 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-29 17:02:34.777 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-29 17:02:34.777 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-29 17:02:35.825 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-29 17:02:35.872 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-29 17:02:35.872 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1805 ms
+2023-06-29 17:02:35.994 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-29 17:02:36.076 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-29 17:02:36.605 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-29 17:02:36.612 [main] INFO  com.test.FinalprojectApplication - Started FinalprojectApplication in 2.844 seconds (JVM running for 4.196)
+2023-06-29 17:02:55.149 [http-nio-9000-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-29 17:02:55.149 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-29 17:02:55.151 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-06-29 17:03:36.708 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-29 17:03:36.713 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-06-29 17:03:51.601 [main] INFO  com.test.FinalprojectApplication - Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 13596 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-29 17:03:51.603 [main] INFO  com.test.FinalprojectApplication - No active profile set, falling back to default profiles: default
+2023-06-29 17:03:52.271 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+2023-06-29 17:03:52.276 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-29 17:03:52.277 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-29 17:03:52.277 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-29 17:03:52.278 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-29 17:03:52.278 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-29 17:03:52.278 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-29 17:03:53.316 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-29 17:03:53.360 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-29 17:03:53.361 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1732 ms
+2023-06-29 17:03:53.474 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-29 17:03:53.549 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-29 17:03:54.016 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-29 17:03:54.023 [main] INFO  com.test.FinalprojectApplication - Started FinalprojectApplication in 2.677 seconds (JVM running for 4.297)
+2023-06-29 17:04:05.582 [http-nio-9000-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-29 17:04:05.583 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-29 17:04:05.585 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-06-29 17:04:54.651 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-29 17:04:54.655 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-06-29 17:05:04.304 [main] INFO  com.test.FinalprojectApplication - Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 12416 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-29 17:05:04.306 [main] INFO  com.test.FinalprojectApplication - No active profile set, falling back to default profiles: default
+2023-06-29 17:05:05.004 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+2023-06-29 17:05:05.010 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-29 17:05:05.010 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-29 17:05:05.011 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-29 17:05:05.011 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-29 17:05:05.011 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-29 17:05:05.011 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-29 17:05:06.055 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-29 17:05:06.104 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-29 17:05:06.104 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1763 ms
+2023-06-29 17:05:06.244 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-29 17:05:06.327 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-29 17:05:06.823 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-29 17:05:06.829 [main] INFO  com.test.FinalprojectApplication - Started FinalprojectApplication in 2.789 seconds (JVM running for 4.663)
+2023-06-29 17:05:15.965 [http-nio-9000-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-29 17:05:15.966 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-29 17:05:15.967 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-06-29 17:06:01.199 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-29 17:06:01.203 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-06-29 17:06:08.620 [main] INFO  com.test.FinalprojectApplication - Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 4992 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-29 17:06:08.622 [main] INFO  com.test.FinalprojectApplication - No active profile set, falling back to default profiles: default
+2023-06-29 17:06:09.286 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+2023-06-29 17:06:09.291 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-29 17:06:09.291 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-29 17:06:09.292 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-29 17:06:09.292 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-29 17:06:09.293 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-29 17:06:09.293 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-29 17:06:10.341 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-29 17:06:10.384 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-29 17:06:10.385 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1736 ms
+2023-06-29 17:06:10.501 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-29 17:06:10.577 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-29 17:06:11.057 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-29 17:06:11.064 [main] INFO  com.test.FinalprojectApplication - Started FinalprojectApplication in 2.693 seconds (JVM running for 4.204)
+2023-06-29 17:06:16.779 [http-nio-9000-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-29 17:06:16.779 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-29 17:06:16.781 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-06-29 17:07:02.765 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-29 17:07:02.770 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-06-29 17:07:11.655 [main] INFO  com.test.FinalprojectApplication - Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 18828 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-29 17:07:11.657 [main] INFO  com.test.FinalprojectApplication - No active profile set, falling back to default profiles: default
+2023-06-29 17:07:12.342 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+2023-06-29 17:07:12.348 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-29 17:07:12.348 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-29 17:07:12.349 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-29 17:07:12.350 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-29 17:07:12.350 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-29 17:07:12.350 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-29 17:07:13.397 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-29 17:07:13.441 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-29 17:07:13.442 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1759 ms
+2023-06-29 17:07:13.560 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-29 17:07:13.637 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-29 17:07:14.119 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-29 17:07:14.126 [main] INFO  com.test.FinalprojectApplication - Started FinalprojectApplication in 2.722 seconds (JVM running for 4.662)
+2023-06-29 17:08:01.327 [http-nio-9000-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-29 17:08:01.327 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-29 17:08:01.329 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-06-29 17:13:04.025 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-29 17:13:04.030 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-06-29 17:13:12.924 [main] INFO  com.test.FinalprojectApplication - Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 15832 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-29 17:13:12.926 [main] INFO  com.test.FinalprojectApplication - No active profile set, falling back to default profiles: default
+2023-06-29 17:13:13.598 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+2023-06-29 17:13:13.604 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-29 17:13:13.604 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-29 17:13:13.605 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-29 17:13:13.605 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-29 17:13:13.606 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-29 17:13:13.606 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-29 17:13:14.644 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-29 17:13:14.689 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-29 17:13:14.689 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1737 ms
+2023-06-29 17:13:14.805 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-29 17:13:14.880 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-29 17:13:15.350 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-29 17:13:15.357 [main] INFO  com.test.FinalprojectApplication - Started FinalprojectApplication in 2.69 seconds (JVM running for 4.734)
+2023-06-29 21:41:19.439 [http-nio-9000-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-29 21:41:19.440 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-29 21:41:19.449 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
