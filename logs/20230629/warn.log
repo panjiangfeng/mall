@@ -1,0 +1,2 @@
+2023-06-29 01:35:15.870 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.test]' package. Please check your configuration.
+2023-06-29 10:10:15.782 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.test]' package. Please check your configuration.

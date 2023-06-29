@@ -1,0 +1,49 @@
+2023-06-29 01:35:18.008 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-29 01:35:18.062 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 40 mappings in 'requestMappingHandlerMapping'
+2023-06-29 01:35:18.089 [main] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-29 01:35:18.096 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-29 10:10:19.670 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-29 10:10:19.805 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 40 mappings in 'requestMappingHandlerMapping'
+2023-06-29 10:10:19.873 [main] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-29 10:10:19.890 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-29 10:10:47.039 [http-nio-9000-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-06-29 10:10:47.039 [http-nio-9000-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-06-29 10:10:47.040 [http-nio-9000-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-06-29 10:10:47.041 [http-nio-9000-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@635e355e
+2023-06-29 10:10:47.042 [http-nio-9000-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@23b8cda6
+2023-06-29 10:10:47.042 [http-nio-9000-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-29 10:10:47.054 [http-nio-9000-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/allgoodsinfo", parameters={}
+2023-06-29 10:10:47.058 [http-nio-9000-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-29 10:10:47.353 [http-nio-9000-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-29 10:10:47.354 [http-nio-9000-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing ["[{"category":"spring","createTime":1687428174000,"deleted":0,"goodsdescribe":"哈哈哈哈哈","goodsid":"167 (truncated)...]
+2023-06-29 10:10:47.365 [http-nio-9000-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-06-29 10:11:21.016 [http-nio-9000-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/goodsimg/goodsimg1671821052254982145(1671821089135497218).jpg", parameters={}
+2023-06-29 10:11:21.025 [http-nio-9000-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-29 10:11:21.059 [http-nio-9000-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-29 10:11:21.059 [http-nio-9000-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [[B@3bebc43c]
+2023-06-29 10:11:21.062 [http-nio-9000-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-06-29 10:11:39.697 [http-nio-9000-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/allgoodsinfo", parameters={}
+2023-06-29 10:11:39.697 [http-nio-9000-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-29 10:11:39.718 [http-nio-9000-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-29 10:11:39.718 [http-nio-9000-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing ["[{"category":"spring","createTime":1687428174000,"deleted":0,"goodsdescribe":"哈哈哈哈哈","goodsid":"167 (truncated)...]
+2023-06-29 10:11:39.720 [http-nio-9000-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-06-29 10:11:42.438 [http-nio-9000-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/login?username=username&password=password1", parameters={masked}
+2023-06-29 10:11:42.439 [http-nio-9000-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.test.controller.LoginController#userLogin(String, String)
+2023-06-29 10:11:42.452 [http-nio-9000-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-29 10:11:42.452 [http-nio-9000-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing ["normaluser"]
+2023-06-29 10:11:42.453 [http-nio-9000-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-06-29 10:11:42.466 [http-nio-9000-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-29 10:11:42.466 [http-nio-9000-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-29 10:11:42.468 [http-nio-9000-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-29 10:11:42.468 [http-nio-9000-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-29 10:11:42.512 [http-nio-9000-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-29 10:11:42.512 [http-nio-9000-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"2@qq.com","u (truncated)...]
+2023-06-29 10:11:42.513 [http-nio-9000-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-06-29 10:11:42.514 [http-nio-9000-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-29 10:11:42.515 [http-nio-9000-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"2@qq.com","u (truncated)...]
+2023-06-29 10:11:42.515 [http-nio-9000-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-06-29 10:11:42.541 [http-nio-9000-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/tximg/1467068952348721153tximg.jpg", parameters={}
+2023-06-29 10:11:42.542 [http-nio-9000-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.test.controller.UserInfoController#getGoodsImg(String)
+2023-06-29 10:11:42.564 [http-nio-9000-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-29 10:11:42.564 [http-nio-9000-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [[B@9e0a08e]
+2023-06-29 10:11:42.565 [http-nio-9000-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
