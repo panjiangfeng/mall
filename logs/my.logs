@@ -1490,3 +1490,855 @@
 2023-06-30 01:15:53.675 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
 2023-06-30 01:15:53.675 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@684be13e]
 2023-06-30 01:15:53.676 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:20:02.379 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:20:02.379 DEBUG 15832 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:20:02.397 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:20:02.397 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:20:02.398 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:20:02.447 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 01:20:02.447 DEBUG 15832 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 01:20:02.450 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:20:02.450 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"1@qq.com","u (truncated)...]
+2023-06-30 01:20:02.451 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:20:02.505 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/f3281ce5-003b-4f61-91f5-ca28e7d3fa6c.jpg", parameters={}
+2023-06-30 01:20:02.505 DEBUG 15832 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:20:02.505 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:20:02.506 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@1ea105eb]
+2023-06-30 01:20:02.506 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:20:02.697 DEBUG 15832 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/c04ec8cc-3236-4ec0-90cd-c9d3be9e73e2.jpg", parameters={}
+2023-06-30 01:20:02.697 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/caf9820e-351f-4856-a1c9-cb9ed60246c1.jpg", parameters={}
+2023-06-30 01:20:02.697 DEBUG 15832 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:20:02.697 DEBUG 15832 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:20:02.698 DEBUG 15832 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:20:02.698 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:20:02.698 DEBUG 15832 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@5f4d8189]
+2023-06-30 01:20:02.698 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@3549ce6c]
+2023-06-30 01:20:02.698 DEBUG 15832 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:20:02.698 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:20:02.698 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/6d2cf70e-c577-4410-a4ca-5350cb1e8a96.jpg", parameters={}
+2023-06-30 01:20:02.698 DEBUG 15832 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:20:02.699 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:20:02.699 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@648670da]
+2023-06-30 01:20:02.699 DEBUG 15832 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/e6e02059-f552-4e94-a3b7-84d55cd92ea0.jpg", parameters={}
+2023-06-30 01:20:02.699 DEBUG 15832 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/b8a42877-0083-4055-8455-2c4ac10192fe.jpg", parameters={}
+2023-06-30 01:20:02.699 DEBUG 15832 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:20:02.699 DEBUG 15832 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:20:02.699 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:20:02.699 DEBUG 15832 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:20:02.699 DEBUG 15832 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:20:02.699 DEBUG 15832 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@54de820d]
+2023-06-30 01:20:02.699 DEBUG 15832 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@19bb9e2b]
+2023-06-30 01:20:02.700 DEBUG 15832 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:20:02.700 DEBUG 15832 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:20:04.875 DEBUG 15832 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/beb6bfd5-2599-4155-8c92-e254ea28a559.jpg", parameters={}
+2023-06-30 01:20:04.876 DEBUG 15832 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:20:04.876 DEBUG 15832 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:20:04.876 DEBUG 15832 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@ebcde0d]
+2023-06-30 01:20:04.877 DEBUG 15832 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:21:05.974 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:21:05.974 DEBUG 15832 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:21:05.991 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:21:05.991 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:21:05.992 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:21:05.997 DEBUG 15832 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 01:21:05.997 DEBUG 15832 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 01:21:06.001 DEBUG 15832 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:21:06.001 DEBUG 15832 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"1@qq.com","u (truncated)...]
+2023-06-30 01:21:06.001 DEBUG 15832 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:21:06.089 DEBUG 15832 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/f3281ce5-003b-4f61-91f5-ca28e7d3fa6c.jpg", parameters={}
+2023-06-30 01:21:06.089 DEBUG 15832 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:21:06.089 DEBUG 15832 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:21:06.089 DEBUG 15832 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@28f1dc23]
+2023-06-30 01:21:06.090 DEBUG 15832 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:21:06.282 DEBUG 15832 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/caf9820e-351f-4856-a1c9-cb9ed60246c1.jpg", parameters={}
+2023-06-30 01:21:06.282 DEBUG 15832 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:21:06.283 DEBUG 15832 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:21:06.283 DEBUG 15832 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@552df873]
+2023-06-30 01:21:06.283 DEBUG 15832 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/c04ec8cc-3236-4ec0-90cd-c9d3be9e73e2.jpg", parameters={}
+2023-06-30 01:21:06.283 DEBUG 15832 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:21:06.284 DEBUG 15832 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:21:06.284 DEBUG 15832 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:21:06.284 DEBUG 15832 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@28883881]
+2023-06-30 01:21:06.284 DEBUG 15832 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:21:06.285 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/e6e02059-f552-4e94-a3b7-84d55cd92ea0.jpg", parameters={}
+2023-06-30 01:21:06.285 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/6d2cf70e-c577-4410-a4ca-5350cb1e8a96.jpg", parameters={}
+2023-06-30 01:21:06.285 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/b8a42877-0083-4055-8455-2c4ac10192fe.jpg", parameters={}
+2023-06-30 01:21:06.285 DEBUG 15832 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:21:06.285 DEBUG 15832 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:21:06.285 DEBUG 15832 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:21:06.286 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:21:06.286 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:21:06.286 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@22e3b045]
+2023-06-30 01:21:06.286 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@18af4a66]
+2023-06-30 01:21:06.286 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:21:06.286 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@737a9236]
+2023-06-30 01:21:06.286 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:21:06.286 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:21:06.286 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:21:06.716 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/tximg/fa8ab644-cd40-474a-8f3b-5d00cdaf75e8.jpg", parameters={}
+2023-06-30 01:21:06.716 DEBUG 15832 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.UserInfoController#getGoodsImg(String)
+2023-06-30 01:21:06.716 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:21:06.716 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@73ec9512]
+2023-06-30 01:21:06.718 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:21:27.567 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/d215f45c-a562-4c3b-8bda-6d02c67c3f3f.jpg", parameters={}
+2023-06-30 01:21:27.567 DEBUG 15832 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:21:27.567 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:21:27.567 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@4731a775]
+2023-06-30 01:21:27.568 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:21:28.669 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/buy?userid=1467068952348721153&goodsid=1674418118722400258&size=XXL", parameters={masked}
+2023-06-30 01:21:28.669 DEBUG 15832 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#buy(Long, Long, String)
+2023-06-30 01:21:28.686 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:21:28.686 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing ["success"]
+2023-06-30 01:21:28.687 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:17.316 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:22:17.316 DEBUG 15832 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:22:17.328 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:17.328 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:22:17.329 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:17.333 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 01:22:17.333 DEBUG 15832 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 01:22:17.336 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:17.337 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"1@qq.com","u (truncated)...]
+2023-06-30 01:22:17.337 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:17.348 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:22:17.348 DEBUG 15832 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:22:17.362 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:17.362 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:22:17.363 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:17.366 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 01:22:17.366 DEBUG 15832 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 01:22:17.369 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:17.369 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"1@qq.com","u (truncated)...]
+2023-06-30 01:22:17.370 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:17.580 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/c04ec8cc-3236-4ec0-90cd-c9d3be9e73e2.jpg", parameters={}
+2023-06-30 01:22:17.580 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/caf9820e-351f-4856-a1c9-cb9ed60246c1.jpg", parameters={}
+2023-06-30 01:22:17.581 DEBUG 15832 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:22:17.581 DEBUG 15832 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:22:17.581 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:22:17.581 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:22:17.581 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@5aa35be0]
+2023-06-30 01:22:17.581 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@1e64f07e]
+2023-06-30 01:22:17.581 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:17.582 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:18.974 DEBUG 15832 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:22:18.975 DEBUG 15832 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:22:18.985 DEBUG 15832 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:18.985 DEBUG 15832 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:22:18.985 DEBUG 15832 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:18.988 DEBUG 15832 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 01:22:18.989 DEBUG 15832 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 01:22:18.992 DEBUG 15832 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:18.992 DEBUG 15832 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"1@qq.com","u (truncated)...]
+2023-06-30 01:22:18.992 DEBUG 15832 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:19.010 DEBUG 15832 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/beb6bfd5-2599-4155-8c92-e254ea28a559.jpg", parameters={}
+2023-06-30 01:22:19.010 DEBUG 15832 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:22:19.011 DEBUG 15832 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:22:19.011 DEBUG 15832 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@65ae413f]
+2023-06-30 01:22:19.011 DEBUG 15832 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:19.790 DEBUG 15832 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:22:19.790 DEBUG 15832 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:22:19.800 DEBUG 15832 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:19.800 DEBUG 15832 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:22:19.800 DEBUG 15832 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:19.806 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 01:22:19.806 DEBUG 15832 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 01:22:19.809 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:19.809 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"1@qq.com","u (truncated)...]
+2023-06-30 01:22:19.809 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:19.820 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/tximg/fa8ab644-cd40-474a-8f3b-5d00cdaf75e8.jpg", parameters={}
+2023-06-30 01:22:19.820 DEBUG 15832 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.UserInfoController#getGoodsImg(String)
+2023-06-30 01:22:19.821 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:22:19.821 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@6e144bee]
+2023-06-30 01:22:19.823 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:23.728 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:22:23.728 DEBUG 15832 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:22:23.729 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:22:23.729 DEBUG 15832 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:22:23.738 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:23.738 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:23.738 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:22:23.739 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:22:23.739 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:23.739 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:27.206 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/login?username=admin&password=password1", parameters={masked}
+2023-06-30 01:22:27.206 DEBUG 15832 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, String)
+2023-06-30 01:22:27.208 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:27.208 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing ["admin"]
+2023-06-30 01:22:27.208 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:27.213 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:22:27.214 DEBUG 15832 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:22:27.232 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:27.232 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:22:27.232 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:27.237 DEBUG 15832 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=admin", parameters={masked}
+2023-06-30 01:22:27.237 DEBUG 15832 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 01:22:27.241 DEBUG 15832 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:27.241 DEBUG 15832 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1686830158000,"id":"1","email":"admin@test.com","userinfo":{"a (truncated)...]
+2023-06-30 01:22:27.241 DEBUG 15832 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:34.462 DEBUG 15832 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:22:34.462 DEBUG 15832 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:22:34.480 DEBUG 15832 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:34.480 DEBUG 15832 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:22:34.480 DEBUG 15832 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:34.520 DEBUG 15832 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/allorder?pageNum=1&pageSize=10", parameters={masked}
+2023-06-30 01:22:34.520 DEBUG 15832 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.OrderController#allorder(int, int)
+2023-06-30 01:22:34.522 DEBUG 15832 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:34.523 DEBUG 15832 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"data":[{"adress":"福建省福州市","createTime":1688048565000,"deleted":0,"email":"2@qq.com","goodsimg":"/ (truncated)...]
+2023-06-30 01:22:34.523 DEBUG 15832 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:34.524 DEBUG 15832 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=admin", parameters={masked}
+2023-06-30 01:22:34.525 DEBUG 15832 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 01:22:34.528 DEBUG 15832 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:34.528 DEBUG 15832 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1686830158000,"id":"1","email":"admin@test.com","userinfo":{"a (truncated)...]
+2023-06-30 01:22:34.528 DEBUG 15832 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:34.960 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:22:34.961 DEBUG 15832 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:22:34.976 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:34.976 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:22:34.977 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:35.015 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/allgoodspagequery?pageNum=1&pageSize=5", parameters={masked}
+2023-06-30 01:22:35.015 DEBUG 15832 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#allgoodspagequery(int, int)
+2023-06-30 01:22:35.021 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=admin", parameters={masked}
+2023-06-30 01:22:35.021 DEBUG 15832 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 01:22:35.024 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:35.024 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1686830158000,"id":"1","email":"admin@test.com","userinfo":{"a (truncated)...]
+2023-06-30 01:22:35.024 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:35.027 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:35.027 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"data":[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L  (truncated)...]
+2023-06-30 01:22:35.027 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:36.057 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:22:36.057 DEBUG 15832 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:22:36.073 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:36.073 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:22:36.073 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:36.096 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/getadminloglist", parameters={}
+2023-06-30 01:22:36.096 DEBUG 15832 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.AdminController#getadminloglist()
+2023-06-30 01:22:36.098 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:36.098 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"activetableid":"1672827923157831681","adminactive":"切换用户id为：1467068952348721153的admin状态成1","admi (truncated)...]
+2023-06-30 01:22:36.098 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:36.100 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=admin", parameters={masked}
+2023-06-30 01:22:36.100 DEBUG 15832 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 01:22:36.103 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:36.103 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1686830158000,"id":"1","email":"admin@test.com","userinfo":{"a (truncated)...]
+2023-06-30 01:22:36.104 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:54.264 DEBUG 15832 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/allorder?pageNum=1&pageSize=10", parameters={masked}
+2023-06-30 01:22:54.264 DEBUG 15832 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:22:54.265 DEBUG 15832 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.OrderController#allorder(int, int)
+2023-06-30 01:22:54.265 DEBUG 15832 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:22:54.267 DEBUG 15832 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:54.268 DEBUG 15832 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"data":[{"adress":"福建省福州市","createTime":1688048565000,"deleted":0,"email":"2@qq.com","goodsimg":"/ (truncated)...]
+2023-06-30 01:22:54.268 DEBUG 15832 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:54.279 DEBUG 15832 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:54.279 DEBUG 15832 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:22:54.280 DEBUG 15832 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:54.379 DEBUG 15832 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=admin", parameters={masked}
+2023-06-30 01:22:54.379 DEBUG 15832 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 01:22:54.383 DEBUG 15832 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:54.383 DEBUG 15832 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1686830158000,"id":"1","email":"admin@test.com","userinfo":{"a (truncated)...]
+2023-06-30 01:22:54.384 DEBUG 15832 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:54.571 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/caf9820e-351f-4856-a1c9-cb9ed60246c1.jpg", parameters={}
+2023-06-30 01:22:54.571 DEBUG 15832 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/c04ec8cc-3236-4ec0-90cd-c9d3be9e73e2.jpg", parameters={}
+2023-06-30 01:22:54.571 DEBUG 15832 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:22:54.571 DEBUG 15832 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 01:22:54.572 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:22:54.572 DEBUG 15832 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 01:22:54.572 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@432b4b31]
+2023-06-30 01:22:54.572 DEBUG 15832 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@41a8a793]
+2023-06-30 01:22:54.572 DEBUG 15832 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:54.572 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:54.830 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/allgoodspagequery?pageNum=1&pageSize=5", parameters={masked}
+2023-06-30 01:22:54.830 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 01:22:54.831 DEBUG 15832 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 01:22:54.831 DEBUG 15832 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#allgoodspagequery(int, int)
+2023-06-30 01:22:54.841 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:54.841 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"data":[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L  (truncated)...]
+2023-06-30 01:22:54.842 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:54.843 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:54.844 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 01:22:54.844 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:22:55.124 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=admin", parameters={masked}
+2023-06-30 01:22:55.124 DEBUG 15832 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 01:22:55.128 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:22:55.128 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1686830158000,"id":"1","email":"admin@test.com","userinfo":{"a (truncated)...]
+2023-06-30 01:22:55.129 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:23:00.815 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/querygoods?goodsname=%E5%86%B0", parameters={masked}
+2023-06-30 01:23:00.815 DEBUG 15832 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#querygoods(String)
+2023-06-30 01:23:00.817 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:23:00.818 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Goods(goodsid=1674418118722400258, goodsname=冰丝男士短袖夏季t恤莫代尔冰感薄款体恤白色印花速干半袖上衣服, category=summer, goods (truncated)...]
+2023-06-30 01:23:00.820 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:24:30.294 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/querygoods?goodsname=%E5%86%B0", parameters={masked}
+2023-06-30 01:24:30.295 DEBUG 15832 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#querygoods(String)
+2023-06-30 01:24:30.297 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:24:30.298 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Goods(goodsid=1674418118722400258, goodsname=冰丝男士短袖夏季t恤莫代尔冰感薄款体恤白色印花速干半袖上衣服, category=summer, goods (truncated)...]
+2023-06-30 01:24:30.298 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:24:30.869 DEBUG 15832 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/querygoods?goodsname=%E5%86%B0", parameters={masked}
+2023-06-30 01:24:30.869 DEBUG 15832 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#querygoods(String)
+2023-06-30 01:24:30.871 DEBUG 15832 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:24:30.871 DEBUG 15832 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Goods(goodsid=1674418118722400258, goodsname=冰丝男士短袖夏季t恤莫代尔冰感薄款体恤白色印花速干半袖上衣服, category=summer, goods (truncated)...]
+2023-06-30 01:24:30.872 DEBUG 15832 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:24:31.053 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/querygoods?goodsname=%E5%86%B0", parameters={masked}
+2023-06-30 01:24:31.053 DEBUG 15832 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#querygoods(String)
+2023-06-30 01:24:31.055 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:24:31.055 DEBUG 15832 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Goods(goodsid=1674418118722400258, goodsname=冰丝男士短袖夏季t恤莫代尔冰感薄款体恤白色印花速干半袖上衣服, category=summer, goods (truncated)...]
+2023-06-30 01:24:31.055 DEBUG 15832 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:24:31.260 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/querygoods?goodsname=%E5%86%B0", parameters={masked}
+2023-06-30 01:24:31.261 DEBUG 15832 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#querygoods(String)
+2023-06-30 01:24:31.262 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:24:31.262 DEBUG 15832 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Goods(goodsid=1674418118722400258, goodsname=冰丝男士短袖夏季t恤莫代尔冰感薄款体恤白色印花速干半袖上衣服, category=summer, goods (truncated)...]
+2023-06-30 01:24:31.263 DEBUG 15832 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:24:31.453 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/querygoods?goodsname=%E5%86%B0", parameters={masked}
+2023-06-30 01:24:31.454 DEBUG 15832 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#querygoods(String)
+2023-06-30 01:24:31.456 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:24:31.456 DEBUG 15832 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Goods(goodsid=1674418118722400258, goodsname=冰丝男士短袖夏季t恤莫代尔冰感薄款体恤白色印花速干半袖上衣服, category=summer, goods (truncated)...]
+2023-06-30 01:24:31.456 DEBUG 15832 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:24:31.684 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/querygoods?goodsname=%E5%86%B0", parameters={masked}
+2023-06-30 01:24:31.685 DEBUG 15832 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#querygoods(String)
+2023-06-30 01:24:31.686 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:24:31.687 DEBUG 15832 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Goods(goodsid=1674418118722400258, goodsname=冰丝男士短袖夏季t恤莫代尔冰感薄款体恤白色印花速干半袖上衣服, category=summer, goods (truncated)...]
+2023-06-30 01:24:31.694 DEBUG 15832 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:24:31.911 DEBUG 15832 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/querygoods?goodsname=%E5%86%B0", parameters={masked}
+2023-06-30 01:24:31.911 DEBUG 15832 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#querygoods(String)
+2023-06-30 01:24:31.913 DEBUG 15832 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:24:31.913 DEBUG 15832 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Goods(goodsid=1674418118722400258, goodsname=冰丝男士短袖夏季t恤莫代尔冰感薄款体恤白色印花速干半袖上衣服, category=summer, goods (truncated)...]
+2023-06-30 01:24:31.914 DEBUG 15832 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:24:32.102 DEBUG 15832 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/querygoods?goodsname=%E5%86%B0", parameters={masked}
+2023-06-30 01:24:32.102 DEBUG 15832 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#querygoods(String)
+2023-06-30 01:24:32.104 DEBUG 15832 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:24:32.104 DEBUG 15832 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Goods(goodsid=1674418118722400258, goodsname=冰丝男士短袖夏季t恤莫代尔冰感薄款体恤白色印花速干半袖上衣服, category=summer, goods (truncated)...]
+2023-06-30 01:24:32.105 DEBUG 15832 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:24:32.293 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/querygoods?goodsname=%E5%86%B0", parameters={masked}
+2023-06-30 01:24:32.293 DEBUG 15832 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#querygoods(String)
+2023-06-30 01:24:32.295 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:24:32.295 DEBUG 15832 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Goods(goodsid=1674418118722400258, goodsname=冰丝男士短袖夏季t恤莫代尔冰感薄款体恤白色印花速干半袖上衣服, category=summer, goods (truncated)...]
+2023-06-30 01:24:32.296 DEBUG 15832 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:24:32.485 DEBUG 15832 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/querygoods?goodsname=%E5%86%B0", parameters={masked}
+2023-06-30 01:24:32.485 DEBUG 15832 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#querygoods(String)
+2023-06-30 01:24:32.487 DEBUG 15832 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:24:32.487 DEBUG 15832 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Goods(goodsid=1674418118722400258, goodsname=冰丝男士短袖夏季t恤莫代尔冰感薄款体恤白色印花速干半袖上衣服, category=summer, goods (truncated)...]
+2023-06-30 01:24:32.488 DEBUG 15832 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 01:24:32.679 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/querygoods?goodsname=%E5%86%B0", parameters={masked}
+2023-06-30 01:24:32.679 DEBUG 15832 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#querygoods(String)
+2023-06-30 01:24:32.681 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-30 01:24:32.681 DEBUG 15832 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Goods(goodsid=1674418118722400258, goodsname=冰丝男士短袖夏季t恤莫代尔冰感薄款体恤白色印花速干半袖上衣服, category=summer, goods (truncated)...]
+2023-06-30 01:24:32.682 DEBUG 15832 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:23:06.114  INFO 10032 --- [main] com.test.FinalprojectApplication         : Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 10032 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-30 08:23:06.118  INFO 10032 --- [main] com.test.FinalprojectApplication         : No active profile set, falling back to default profiles: default
+2023-06-30 08:23:07.770  WARN 10032 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.test]' package. Please check your configuration.
+2023-06-30 08:23:08.482  INFO 10032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-06-30 08:23:08.498  INFO 10032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-30 08:23:08.499  INFO 10032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-30 08:23:08.502  INFO 10032 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-30 08:23:08.503  INFO 10032 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-30 08:23:08.503  INFO 10032 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-30 08:23:08.504  INFO 10032 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-30 08:23:09.626  INFO 10032 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-30 08:23:09.704  INFO 10032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-30 08:23:09.705  INFO 10032 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3531 ms
+2023-06-30 08:23:09.937  INFO 10032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-30 08:23:10.080  INFO 10032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-30 08:23:10.684 DEBUG 10032 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-30 08:23:10.756 DEBUG 10032 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 40 mappings in 'requestMappingHandlerMapping'
+2023-06-30 08:23:10.788 DEBUG 10032 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-30 08:23:10.800 DEBUG 10032 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-30 08:23:10.934  INFO 10032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-30 08:23:10.954  INFO 10032 --- [main] com.test.FinalprojectApplication         : Started FinalprojectApplication in 5.585 seconds (JVM running for 10.418)
+2023-06-30 08:23:48.105  INFO 10032 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-30 08:23:48.106  INFO 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-30 08:23:48.106 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-06-30 08:23:48.107 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-06-30 08:23:48.107 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-06-30 08:23:48.108 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@14905ec3
+2023-06-30 08:23:48.108 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@300d0688
+2023-06-30 08:23:48.108 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-30 08:23:48.109  INFO 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-06-30 08:23:48.118 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 08:23:48.121 DEBUG 10032 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 08:23:48.362 DEBUG 10032 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:23:48.363 DEBUG 10032 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 08:23:48.373 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:24:10.835 DEBUG 10032 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 08:24:10.836 DEBUG 10032 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 08:24:10.894 DEBUG 10032 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:24:10.894 DEBUG 10032 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 08:24:10.895 DEBUG 10032 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:24:12.120 DEBUG 10032 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/6d2cf70e-c577-4410-a4ca-5350cb1e8a96.jpg", parameters={}
+2023-06-30 08:24:12.123 DEBUG 10032 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:24:12.147 DEBUG 10032 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:24:12.148 DEBUG 10032 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@507bb461]
+2023-06-30 08:24:12.149 DEBUG 10032 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:24:16.399 DEBUG 10032 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/b8a42877-0083-4055-8455-2c4ac10192fe.jpg", parameters={}
+2023-06-30 08:24:16.399 DEBUG 10032 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/beb6bfd5-2599-4155-8c92-e254ea28a559.jpg", parameters={}
+2023-06-30 08:24:16.400 DEBUG 10032 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:24:16.400 DEBUG 10032 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:24:16.414 DEBUG 10032 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:24:16.415 DEBUG 10032 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@48b96446]
+2023-06-30 08:24:16.416 DEBUG 10032 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:24:16.424 DEBUG 10032 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:24:16.424 DEBUG 10032 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@57ea8b0e]
+2023-06-30 08:24:16.426 DEBUG 10032 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:24:17.063 DEBUG 10032 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/e6e02059-f552-4e94-a3b7-84d55cd92ea0.jpg", parameters={}
+2023-06-30 08:24:17.063 DEBUG 10032 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/c04ec8cc-3236-4ec0-90cd-c9d3be9e73e2.jpg", parameters={}
+2023-06-30 08:24:17.064 DEBUG 10032 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:24:17.064 DEBUG 10032 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:24:17.077 DEBUG 10032 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:24:17.077 DEBUG 10032 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@176e1870]
+2023-06-30 08:24:17.078 DEBUG 10032 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:24:17.082 DEBUG 10032 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:24:17.083 DEBUG 10032 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@19e6dcdc]
+2023-06-30 08:24:17.084 DEBUG 10032 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:24:17.362 DEBUG 10032 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/caf9820e-351f-4856-a1c9-cb9ed60246c1.jpg", parameters={}
+2023-06-30 08:24:17.362 DEBUG 10032 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/f3281ce5-003b-4f61-91f5-ca28e7d3fa6c.jpg", parameters={}
+2023-06-30 08:24:17.363 DEBUG 10032 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:24:17.363 DEBUG 10032 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:24:17.378 DEBUG 10032 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:24:17.378 DEBUG 10032 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@2199a586]
+2023-06-30 08:24:17.379 DEBUG 10032 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:24:17.387 DEBUG 10032 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:24:17.387 DEBUG 10032 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@5f10616a]
+2023-06-30 08:24:17.389 DEBUG 10032 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:24:26.042 DEBUG 10032 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/d0f2e691-cdb0-4925-a11a-1153c5a39830.jpg", parameters={}
+2023-06-30 08:24:26.043 DEBUG 10032 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:24:26.057 DEBUG 10032 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:24:26.058 DEBUG 10032 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@3a33118f]
+2023-06-30 08:24:26.059 DEBUG 10032 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:25:22.220 DEBUG 10032 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 08:25:22.221 DEBUG 10032 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 08:25:22.282 DEBUG 10032 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:25:22.282 DEBUG 10032 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 08:25:22.283 DEBUG 10032 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:25:46.921 DEBUG 10032 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/allgoodsinfo", parameters={}
+2023-06-30 08:25:46.922 DEBUG 10032 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 08:25:46.964 DEBUG 10032 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:25:46.965 DEBUG 10032 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 08:25:46.966 DEBUG 10032 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:02.918 DEBUG 10032 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/allgoodsinfo", parameters={}
+2023-06-30 08:26:02.918 DEBUG 10032 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 08:26:02.940 DEBUG 10032 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:26:02.941 DEBUG 10032 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 08:26:02.942 DEBUG 10032 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:15.240 DEBUG 10032 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/f3281ce5-003b-4f61-91f5-ca28e7d3fa6c.jpg", parameters={}
+2023-06-30 08:26:15.240 DEBUG 10032 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/caf9820e-351f-4856-a1c9-cb9ed60246c1.jpg", parameters={}
+2023-06-30 08:26:15.240 DEBUG 10032 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:26:15.241 DEBUG 10032 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:26:15.241 DEBUG 10032 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:26:15.241 DEBUG 10032 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@2f5e5fc5]
+2023-06-30 08:26:15.241 DEBUG 10032 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:26:15.242 DEBUG 10032 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@51d794f8]
+2023-06-30 08:26:15.242 DEBUG 10032 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:15.243 DEBUG 10032 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:32.801 DEBUG 10032 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/login?username=username&password=password1", parameters={masked}
+2023-06-30 08:26:32.801 DEBUG 10032 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, String)
+2023-06-30 08:26:32.808 DEBUG 10032 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:26:32.808 DEBUG 10032 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing ["normaluser"]
+2023-06-30 08:26:32.808 DEBUG 10032 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:32.817 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 08:26:32.817 DEBUG 10032 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 08:26:32.818 DEBUG 10032 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 08:26:32.818 DEBUG 10032 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 08:26:32.842 DEBUG 10032 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:26:32.842 DEBUG 10032 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:26:32.842 DEBUG 10032 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"1@qq.com","u (truncated)...]
+2023-06-30 08:26:32.842 DEBUG 10032 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"1@qq.com","u (truncated)...]
+2023-06-30 08:26:32.843 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:32.843 DEBUG 10032 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:32.866 DEBUG 10032 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/tximg/fa8ab644-cd40-474a-8f3b-5d00cdaf75e8.jpg", parameters={}
+2023-06-30 08:26:32.866 DEBUG 10032 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/f3281ce5-003b-4f61-91f5-ca28e7d3fa6c.jpg", parameters={}
+2023-06-30 08:26:32.866 DEBUG 10032 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:26:32.866 DEBUG 10032 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.UserInfoController#getGoodsImg(String)
+2023-06-30 08:26:32.867 DEBUG 10032 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:26:32.867 DEBUG 10032 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@2a855b3]
+2023-06-30 08:26:32.868 DEBUG 10032 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:32.868 DEBUG 10032 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/caf9820e-351f-4856-a1c9-cb9ed60246c1.jpg", parameters={}
+2023-06-30 08:26:32.868 DEBUG 10032 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/c04ec8cc-3236-4ec0-90cd-c9d3be9e73e2.jpg", parameters={}
+2023-06-30 08:26:32.870 DEBUG 10032 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:26:32.870 DEBUG 10032 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:26:32.870 DEBUG 10032 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:26:32.870 DEBUG 10032 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:26:32.870 DEBUG 10032 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@592d6f83]
+2023-06-30 08:26:32.870 DEBUG 10032 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@1c1f5fe7]
+2023-06-30 08:26:32.871 DEBUG 10032 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:32.871 DEBUG 10032 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:32.902 DEBUG 10032 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:26:32.902 DEBUG 10032 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@467e9321]
+2023-06-30 08:26:32.904 DEBUG 10032 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:41.202 DEBUG 10032 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/b8a42877-0083-4055-8455-2c4ac10192fe.jpg", parameters={}
+2023-06-30 08:26:41.202 DEBUG 10032 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/e6e02059-f552-4e94-a3b7-84d55cd92ea0.jpg", parameters={}
+2023-06-30 08:26:41.202 DEBUG 10032 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/6d2cf70e-c577-4410-a4ca-5350cb1e8a96.jpg", parameters={}
+2023-06-30 08:26:41.203 DEBUG 10032 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:26:41.203 DEBUG 10032 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:26:41.203 DEBUG 10032 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:26:41.204 DEBUG 10032 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:26:41.204 DEBUG 10032 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:26:41.204 DEBUG 10032 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:26:41.204 DEBUG 10032 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@55e80a1a]
+2023-06-30 08:26:41.204 DEBUG 10032 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@2b61cef6]
+2023-06-30 08:26:41.204 DEBUG 10032 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@7401da9]
+2023-06-30 08:26:41.204 DEBUG 10032 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:41.205 DEBUG 10032 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:26:41.205 DEBUG 10032 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:28:07.010 DEBUG 10032 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/f3281ce5-003b-4f61-91f5-ca28e7d3fa6c.jpg", parameters={}
+2023-06-30 08:28:07.011 DEBUG 10032 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:28:07.012 DEBUG 10032 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:28:07.012 DEBUG 10032 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@4c2da685]
+2023-06-30 08:28:07.014 DEBUG 10032 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:28:07.209 DEBUG 10032 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/caf9820e-351f-4856-a1c9-cb9ed60246c1.jpg", parameters={}
+2023-06-30 08:28:07.210 DEBUG 10032 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:28:07.210 DEBUG 10032 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:28:07.210 DEBUG 10032 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@6e6355fe]
+2023-06-30 08:28:07.211 DEBUG 10032 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/c04ec8cc-3236-4ec0-90cd-c9d3be9e73e2.jpg", parameters={}
+2023-06-30 08:28:07.211 DEBUG 10032 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/6d2cf70e-c577-4410-a4ca-5350cb1e8a96.jpg", parameters={}
+2023-06-30 08:28:07.211 DEBUG 10032 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:28:07.211 DEBUG 10032 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:28:07.211 DEBUG 10032 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:28:07.212 DEBUG 10032 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:28:07.212 DEBUG 10032 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:28:07.212 DEBUG 10032 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@7e67f5eb]
+2023-06-30 08:28:07.212 DEBUG 10032 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@77966d93]
+2023-06-30 08:28:07.212 DEBUG 10032 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/b8a42877-0083-4055-8455-2c4ac10192fe.jpg", parameters={}
+2023-06-30 08:28:07.213 DEBUG 10032 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:28:07.213 DEBUG 10032 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:28:07.213 DEBUG 10032 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:28:07.214 DEBUG 10032 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:28:07.214 DEBUG 10032 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@d68356e]
+2023-06-30 08:28:07.215 DEBUG 10032 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:28:19.701 DEBUG 10032 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/d215f45c-a562-4c3b-8bda-6d02c67c3f3f.jpg", parameters={}
+2023-06-30 08:28:19.702 DEBUG 10032 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 08:28:19.736 DEBUG 10032 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:28:19.736 DEBUG 10032 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@691b834e]
+2023-06-30 08:28:19.737 DEBUG 10032 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:28:21.502 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/tximg/fa8ab644-cd40-474a-8f3b-5d00cdaf75e8.jpg", parameters={}
+2023-06-30 08:28:21.502 DEBUG 10032 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.UserInfoController#getGoodsImg(String)
+2023-06-30 08:28:21.504 DEBUG 10032 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:28:21.504 DEBUG 10032 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@bde3b3b]
+2023-06-30 08:28:21.506 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:31:42.438 DEBUG 10032 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/tximg/fa8ab644-cd40-474a-8f3b-5d00cdaf75e8.jpg", parameters={}
+2023-06-30 08:31:42.438 DEBUG 10032 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.UserInfoController#getGoodsImg(String)
+2023-06-30 08:31:42.439 DEBUG 10032 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 08:31:42.439 DEBUG 10032 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@23a6821]
+2023-06-30 08:31:42.441 DEBUG 10032 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:31:51.066 DEBUG 10032 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/login?username=username&password=password1", parameters={masked}
+2023-06-30 08:31:51.067 DEBUG 10032 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, String)
+2023-06-30 08:31:51.069 DEBUG 10032 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:31:51.070 DEBUG 10032 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing ["normaluser"]
+2023-06-30 08:31:51.070 DEBUG 10032 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:31:51.077 DEBUG 10032 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 08:31:51.077 DEBUG 10032 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 08:31:51.078 DEBUG 10032 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 08:31:51.078 DEBUG 10032 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 08:31:51.086 DEBUG 10032 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:31:51.086 DEBUG 10032 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:31:51.086 DEBUG 10032 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"1@qq.com","u (truncated)...]
+2023-06-30 08:31:51.086 DEBUG 10032 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"1@qq.com","u (truncated)...]
+2023-06-30 08:31:51.086 DEBUG 10032 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:31:51.086 DEBUG 10032 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:31:54.111 DEBUG 10032 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/login?username=username&password=password1", parameters={masked}
+2023-06-30 08:31:54.111 DEBUG 10032 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, String)
+2023-06-30 08:31:54.114 DEBUG 10032 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:31:54.114 DEBUG 10032 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["normaluser"]
+2023-06-30 08:31:54.114 DEBUG 10032 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:31:54.121 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 08:31:54.121 DEBUG 10032 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 08:31:54.121 DEBUG 10032 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 08:31:54.121 DEBUG 10032 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 08:31:54.126 DEBUG 10032 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:31:54.126 DEBUG 10032 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:31:54.126 DEBUG 10032 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"1@qq.com","u (truncated)...]
+2023-06-30 08:31:54.126 DEBUG 10032 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"password1","createTime":1640605589000,"id":"1467068952348721153","email":"1@qq.com","u (truncated)...]
+2023-06-30 08:31:54.126 DEBUG 10032 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:31:54.126 DEBUG 10032 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:38:44.873  INFO 10032 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-30 08:38:44.880  INFO 10032 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-30 08:38:52.154  INFO 20756 --- [main] com.test.FinalprojectApplication         : Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 20756 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-30 08:38:52.155  INFO 20756 --- [main] com.test.FinalprojectApplication         : No active profile set, falling back to default profiles: default
+2023-06-30 08:38:52.543  WARN 20756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.test]' package. Please check your configuration.
+2023-06-30 08:38:52.828  INFO 20756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-06-30 08:38:52.834  INFO 20756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-30 08:38:52.834  INFO 20756 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-30 08:38:52.835  INFO 20756 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-30 08:38:52.836  INFO 20756 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-30 08:38:52.836  INFO 20756 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-30 08:38:52.836  INFO 20756 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-30 08:38:53.877  INFO 20756 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-30 08:38:53.921  INFO 20756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-30 08:38:53.921  INFO 20756 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1738 ms
+2023-06-30 08:38:54.036  INFO 20756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-30 08:38:54.110  INFO 20756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-30 08:38:54.459 DEBUG 20756 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-30 08:38:54.502 DEBUG 20756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 40 mappings in 'requestMappingHandlerMapping'
+2023-06-30 08:38:54.520 DEBUG 20756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-30 08:38:54.525 DEBUG 20756 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-30 08:38:54.595  INFO 20756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-30 08:38:54.602  INFO 20756 --- [main] com.test.FinalprojectApplication         : Started FinalprojectApplication in 2.694 seconds (JVM running for 4.045)
+2023-06-30 08:39:37.330  INFO 20756 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-30 08:39:37.334  INFO 20756 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-30 08:39:45.736  INFO 23236 --- [main] com.test.FinalprojectApplication         : Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 23236 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-30 08:39:45.738  INFO 23236 --- [main] com.test.FinalprojectApplication         : No active profile set, falling back to default profiles: default
+2023-06-30 08:39:46.110  WARN 23236 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.test]' package. Please check your configuration.
+2023-06-30 08:39:46.394  INFO 23236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-06-30 08:39:46.399  INFO 23236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-30 08:39:46.400  INFO 23236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-30 08:39:46.400  INFO 23236 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-30 08:39:46.401  INFO 23236 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-30 08:39:46.401  INFO 23236 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-30 08:39:46.401  INFO 23236 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-30 08:39:47.444  INFO 23236 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-30 08:39:47.487  INFO 23236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-30 08:39:47.487  INFO 23236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1720 ms
+2023-06-30 08:39:47.612  INFO 23236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-30 08:39:47.690  INFO 23236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-30 08:39:48.002 DEBUG 23236 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-30 08:39:48.042 DEBUG 23236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 40 mappings in 'requestMappingHandlerMapping'
+2023-06-30 08:39:48.059 DEBUG 23236 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-30 08:39:48.069 DEBUG 23236 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-30 08:39:48.136  INFO 23236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-30 08:39:48.143  INFO 23236 --- [main] com.test.FinalprojectApplication         : Started FinalprojectApplication in 2.652 seconds (JVM running for 3.976)
+2023-06-30 08:43:10.733  INFO 23236 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-30 08:43:10.733  INFO 23236 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-30 08:43:10.733 DEBUG 23236 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-06-30 08:43:10.733 DEBUG 23236 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-06-30 08:43:10.733 DEBUG 23236 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-06-30 08:43:10.734 DEBUG 23236 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@33047c4a
+2023-06-30 08:43:10.734 DEBUG 23236 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1348a47
+2023-06-30 08:43:10.735 DEBUG 23236 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-30 08:43:10.735  INFO 23236 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-30 08:43:10.741 DEBUG 23236 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/login?username=username&password=password1", parameters={masked}
+2023-06-30 08:43:10.743 DEBUG 23236 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, String)
+2023-06-30 08:43:10.814 DEBUG 23236 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:43:10.815 DEBUG 23236 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["normaluser"]
+2023-06-30 08:43:10.818 DEBUG 23236 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:43:10.828 DEBUG 23236 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 08:43:10.828 DEBUG 23236 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 08:43:10.829 DEBUG 23236 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 08:43:10.829 DEBUG 23236 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 08:43:10.893 DEBUG 23236 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:43:10.893 DEBUG 23236 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:43:10.893 DEBUG 23236 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"7c6a180b36896a0a8c02787eeafb0e4c","createTime":1688085716000,"id":"1467068952348721153 (truncated)...]
+2023-06-30 08:43:10.893 DEBUG 23236 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"7c6a180b36896a0a8c02787eeafb0e4c","createTime":1688085716000,"id":"1467068952348721153 (truncated)...]
+2023-06-30 08:43:10.893 DEBUG 23236 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:43:10.893 DEBUG 23236 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:43:13.831 DEBUG 23236 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/login?username=username&password=password11", parameters={masked}
+2023-06-30 08:43:13.832 DEBUG 23236 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, String)
+2023-06-30 08:43:13.835 DEBUG 23236 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:43:13.835 DEBUG 23236 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["error"]
+2023-06-30 08:43:13.835 DEBUG 23236 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:43:16.184 DEBUG 23236 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/login?username=username&password=password1", parameters={masked}
+2023-06-30 08:43:16.185 DEBUG 23236 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, String)
+2023-06-30 08:43:16.188 DEBUG 23236 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:43:16.188 DEBUG 23236 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing ["normaluser"]
+2023-06-30 08:43:16.188 DEBUG 23236 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:43:16.196 DEBUG 23236 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 08:43:16.196 DEBUG 23236 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 08:43:16.197 DEBUG 23236 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 08:43:16.197 DEBUG 23236 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 08:43:16.208 DEBUG 23236 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:43:16.208 DEBUG 23236 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 08:43:16.209 DEBUG 23236 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"7c6a180b36896a0a8c02787eeafb0e4c","createTime":1688085716000,"id":"1467068952348721153 (truncated)...]
+2023-06-30 08:43:16.209 DEBUG 23236 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"7c6a180b36896a0a8c02787eeafb0e4c","createTime":1688085716000,"id":"1467068952348721153 (truncated)...]
+2023-06-30 08:43:16.209 DEBUG 23236 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 08:43:16.209 DEBUG 23236 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 09:09:18.440 DEBUG 23236 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 09:09:18.441 DEBUG 23236 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 09:09:18.482 DEBUG 23236 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 09:09:18.482 DEBUG 23236 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 09:09:18.483 DEBUG 23236 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 09:09:18.488 DEBUG 23236 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 09:09:18.489 DEBUG 23236 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 09:09:18.499 DEBUG 23236 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 09:09:18.499 DEBUG 23236 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"7c6a180b36896a0a8c02787eeafb0e4c","createTime":1688085716000,"id":"1467068952348721153 (truncated)...]
+2023-06-30 09:09:18.499 DEBUG 23236 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 09:09:18.551 DEBUG 23236 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/tximg/fa8ab644-cd40-474a-8f3b-5d00cdaf75e8.jpg", parameters={}
+2023-06-30 09:09:18.553 DEBUG 23236 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.UserInfoController#getGoodsImg(String)
+2023-06-30 09:09:18.557 DEBUG 23236 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 09:09:18.558 DEBUG 23236 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@5a31076f]
+2023-06-30 09:09:18.561 DEBUG 23236 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 09:09:18.562 DEBUG 23236 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/f3281ce5-003b-4f61-91f5-ca28e7d3fa6c.jpg", parameters={}
+2023-06-30 09:09:18.563 DEBUG 23236 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 09:09:18.565 DEBUG 23236 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 09:09:18.565 DEBUG 23236 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@120707ba]
+2023-06-30 09:09:18.566 DEBUG 23236 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 09:09:18.566 DEBUG 23236 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/c04ec8cc-3236-4ec0-90cd-c9d3be9e73e2.jpg", parameters={}
+2023-06-30 09:09:18.567 DEBUG 23236 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 09:09:18.569 DEBUG 23236 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 09:09:18.569 DEBUG 23236 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@29231734]
+2023-06-30 09:09:18.570 DEBUG 23236 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 09:09:18.570 DEBUG 23236 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/caf9820e-351f-4856-a1c9-cb9ed60246c1.jpg", parameters={}
+2023-06-30 09:09:18.571 DEBUG 23236 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 09:09:18.572 DEBUG 23236 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 09:09:18.573 DEBUG 23236 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@1d3d9d20]
+2023-06-30 09:09:18.574 DEBUG 23236 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 09:12:55.483  INFO 23236 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-30 09:12:55.495  INFO 23236 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-30 13:30:15.187  INFO 6432 --- [main] com.test.FinalprojectApplication         : Starting FinalprojectApplication using Java 1.8.0_191 on DESKTOP-IQKC8MC with PID 6432 (F:\project\mall\target\classes started by f in F:\project\mall)
+2023-06-30 13:30:15.188  INFO 6432 --- [main] com.test.FinalprojectApplication         : No active profile set, falling back to default profiles: default
+2023-06-30 13:30:15.823  WARN 6432 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.test]' package. Please check your configuration.
+2023-06-30 13:30:16.479  INFO 6432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-06-30 13:30:16.488  INFO 6432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-30 13:30:16.489  INFO 6432 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-06-30 13:30:16.492  INFO 6432 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-06-30 13:30:16.492  INFO 6432 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2023-06-30 13:30:16.493  INFO 6432 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-06-30 13:30:16.493  INFO 6432 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-30 13:30:17.557  INFO 6432 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2023-06-30 13:30:17.630  INFO 6432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-30 13:30:17.630  INFO 6432 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2403 ms
+2023-06-30 13:30:17.844  INFO 6432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-30 13:30:17.977  INFO 6432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-30 13:30:18.589 DEBUG 6432 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-30 13:30:18.660 DEBUG 6432 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 40 mappings in 'requestMappingHandlerMapping'
+2023-06-30 13:30:18.691 DEBUG 6432 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-30 13:30:18.701 DEBUG 6432 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-30 13:30:18.808  INFO 6432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-06-30 13:30:18.818  INFO 6432 --- [main] com.test.FinalprojectApplication         : Started FinalprojectApplication in 4.079 seconds (JVM running for 6.106)
+2023-06-30 13:30:24.532  INFO 6432 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-30 13:30:24.532  INFO 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-30 13:30:24.532 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-06-30 13:30:24.532 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-06-30 13:30:24.532 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-06-30 13:30:24.533 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6811ad3b
+2023-06-30 13:30:24.534 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2359c55
+2023-06-30 13:30:24.534 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-30 13:30:24.534  INFO 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-30 13:30:24.543 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 13:30:24.546 DEBUG 6432 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 13:30:24.709 DEBUG 6432 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 13:30:24.710 DEBUG 6432 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 13:30:24.714 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:26.595 DEBUG 6432 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 13:30:26.596 DEBUG 6432 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 13:30:26.650 DEBUG 6432 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 13:30:26.651 DEBUG 6432 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 13:30:26.652 DEBUG 6432 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:26.661 DEBUG 6432 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 13:30:26.661 DEBUG 6432 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 13:30:26.699 DEBUG 6432 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 13:30:26.699 DEBUG 6432 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"7c6a180b36896a0a8c02787eeafb0e4c","createTime":1688085716000,"id":"1467068952348721153 (truncated)...]
+2023-06-30 13:30:26.700 DEBUG 6432 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:26.784 DEBUG 6432 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/tximg/fa8ab644-cd40-474a-8f3b-5d00cdaf75e8.jpg", parameters={}
+2023-06-30 13:30:26.786 DEBUG 6432 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.UserInfoController#getGoodsImg(String)
+2023-06-30 13:30:26.803 DEBUG 6432 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/f3281ce5-003b-4f61-91f5-ca28e7d3fa6c.jpg", parameters={}
+2023-06-30 13:30:26.804 DEBUG 6432 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:30:26.830 DEBUG 6432 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:30:26.831 DEBUG 6432 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@5a586a26]
+2023-06-30 13:30:26.838 DEBUG 6432 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:30:26.838 DEBUG 6432 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@2a4fed4f]
+2023-06-30 13:30:26.840 DEBUG 6432 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:26.841 DEBUG 6432 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:26.882 DEBUG 6432 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/c04ec8cc-3236-4ec0-90cd-c9d3be9e73e2.jpg", parameters={}
+2023-06-30 13:30:26.883 DEBUG 6432 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:30:26.893 DEBUG 6432 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/caf9820e-351f-4856-a1c9-cb9ed60246c1.jpg", parameters={}
+2023-06-30 13:30:26.895 DEBUG 6432 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:30:26.897 DEBUG 6432 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:30:26.897 DEBUG 6432 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@19f96b44]
+2023-06-30 13:30:26.901 DEBUG 6432 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:26.903 DEBUG 6432 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:30:26.903 DEBUG 6432 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@46649eba]
+2023-06-30 13:30:26.906 DEBUG 6432 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:32.591 DEBUG 6432 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/6d2cf70e-c577-4410-a4ca-5350cb1e8a96.jpg", parameters={}
+2023-06-30 13:30:32.594 DEBUG 6432 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:30:32.764 DEBUG 6432 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:30:32.764 DEBUG 6432 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@40bc2a14]
+2023-06-30 13:30:32.765 DEBUG 6432 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:47.237 DEBUG 6432 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/login?username=username&password=password1", parameters={masked}
+2023-06-30 13:30:47.237 DEBUG 6432 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, String)
+2023-06-30 13:30:47.243 DEBUG 6432 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 13:30:47.243 DEBUG 6432 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing ["normaluser"]
+2023-06-30 13:30:47.244 DEBUG 6432 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:47.252 DEBUG 6432 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 13:30:47.253 DEBUG 6432 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 13:30:47.253 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 13:30:47.253 DEBUG 6432 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 13:30:47.265 DEBUG 6432 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 13:30:47.265 DEBUG 6432 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 13:30:47.266 DEBUG 6432 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"7c6a180b36896a0a8c02787eeafb0e4c","createTime":1688085716000,"id":"1467068952348721153 (truncated)...]
+2023-06-30 13:30:47.266 DEBUG 6432 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"7c6a180b36896a0a8c02787eeafb0e4c","createTime":1688085716000,"id":"1467068952348721153 (truncated)...]
+2023-06-30 13:30:47.266 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:47.266 DEBUG 6432 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:47.295 DEBUG 6432 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/f3281ce5-003b-4f61-91f5-ca28e7d3fa6c.jpg", parameters={}
+2023-06-30 13:30:47.295 DEBUG 6432 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/tximg/fa8ab644-cd40-474a-8f3b-5d00cdaf75e8.jpg", parameters={}
+2023-06-30 13:30:47.295 DEBUG 6432 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:30:47.295 DEBUG 6432 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.UserInfoController#getGoodsImg(String)
+2023-06-30 13:30:47.297 DEBUG 6432 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:30:47.297 DEBUG 6432 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/c04ec8cc-3236-4ec0-90cd-c9d3be9e73e2.jpg", parameters={}
+2023-06-30 13:30:47.297 DEBUG 6432 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:30:47.297 DEBUG 6432 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@10d97bd4]
+2023-06-30 13:30:47.297 DEBUG 6432 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/caf9820e-351f-4856-a1c9-cb9ed60246c1.jpg", parameters={}
+2023-06-30 13:30:47.297 DEBUG 6432 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@f7559f0]
+2023-06-30 13:30:47.297 DEBUG 6432 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:30:47.298 DEBUG 6432 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:30:47.298 DEBUG 6432 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:47.298 DEBUG 6432 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:30:47.298 DEBUG 6432 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@24880676]
+2023-06-30 13:30:47.299 DEBUG 6432 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:47.299 DEBUG 6432 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:47.299 DEBUG 6432 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:30:47.299 DEBUG 6432 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@47068f43]
+2023-06-30 13:30:47.300 DEBUG 6432 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:54.816 DEBUG 6432 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/6d2cf70e-c577-4410-a4ca-5350cb1e8a96.jpg", parameters={}
+2023-06-30 13:30:54.817 DEBUG 6432 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/b8a42877-0083-4055-8455-2c4ac10192fe.jpg", parameters={}
+2023-06-30 13:30:54.817 DEBUG 6432 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/e6e02059-f552-4e94-a3b7-84d55cd92ea0.jpg", parameters={}
+2023-06-30 13:30:54.821 DEBUG 6432 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:30:54.821 DEBUG 6432 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:30:54.821 DEBUG 6432 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:30:54.822 DEBUG 6432 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:30:54.822 DEBUG 6432 --- [http-nio-9000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@173e960b]
+2023-06-30 13:30:54.823 DEBUG 6432 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:54.841 DEBUG 6432 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:30:54.841 DEBUG 6432 --- [http-nio-9000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@48a37806]
+2023-06-30 13:30:54.842 DEBUG 6432 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:30:54.847 DEBUG 6432 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:30:54.847 DEBUG 6432 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@4e7bcc73]
+2023-06-30 13:30:54.848 DEBUG 6432 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:31:14.641 DEBUG 6432 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/eed0c14d-b142-424c-b2fa-97e092737d6f.jpg", parameters={}
+2023-06-30 13:31:14.641 DEBUG 6432 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:31:14.715 DEBUG 6432 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:31:14.715 DEBUG 6432 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@14fb90c4]
+2023-06-30 13:31:14.715 DEBUG 6432 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:31:28.532 DEBUG 6432 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/beb6bfd5-2599-4155-8c92-e254ea28a559.jpg", parameters={}
+2023-06-30 13:31:28.533 DEBUG 6432 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:31:28.841 DEBUG 6432 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:31:28.841 DEBUG 6432 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@abf872a]
+2023-06-30 13:31:28.842 DEBUG 6432 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:31:31.490 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/d215f45c-a562-4c3b-8bda-6d02c67c3f3f.jpg", parameters={}
+2023-06-30 13:31:31.490 DEBUG 6432 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:31:31.531 DEBUG 6432 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:31:31.531 DEBUG 6432 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@2e1136b6]
+2023-06-30 13:31:31.532 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:32:48.511 DEBUG 6432 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/c04ec8cc-3236-4ec0-90cd-c9d3be9e73e2.jpg", parameters={}
+2023-06-30 13:32:48.511 DEBUG 6432 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/6d2cf70e-c577-4410-a4ca-5350cb1e8a96.jpg", parameters={}
+2023-06-30 13:32:48.512 DEBUG 6432 --- [http-nio-9000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:32:48.512 DEBUG 6432 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:32:48.513 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/b8a42877-0083-4055-8455-2c4ac10192fe.jpg", parameters={}
+2023-06-30 13:32:48.513 DEBUG 6432 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/e6e02059-f552-4e94-a3b7-84d55cd92ea0.jpg", parameters={}
+2023-06-30 13:32:48.513 DEBUG 6432 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:32:48.513 DEBUG 6432 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:32:48.513 DEBUG 6432 --- [http-nio-9000-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@71a909a]
+2023-06-30 13:32:48.513 DEBUG 6432 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:32:48.513 DEBUG 6432 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:32:48.513 DEBUG 6432 --- [http-nio-9000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@4a444164]
+2023-06-30 13:32:48.514 DEBUG 6432 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:32:48.514 DEBUG 6432 --- [http-nio-9000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@136efdc9]
+2023-06-30 13:32:48.514 DEBUG 6432 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:32:48.514 DEBUG 6432 --- [http-nio-9000-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@26ad3be6]
+2023-06-30 13:32:48.515 DEBUG 6432 --- [http-nio-9000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:32:48.515 DEBUG 6432 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:32:48.515 DEBUG 6432 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:32:48.515 DEBUG 6432 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:32:51.024 DEBUG 6432 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/goodsimg/beb6bfd5-2599-4155-8c92-e254ea28a559.jpg", parameters={}
+2023-06-30 13:32:51.024 DEBUG 6432 --- [http-nio-9000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getGoodsImg(String)
+2023-06-30 13:32:51.025 DEBUG 6432 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:32:51.025 DEBUG 6432 --- [http-nio-9000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@20b7863f]
+2023-06-30 13:32:51.026 DEBUG 6432 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:32:54.620 DEBUG 6432 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/tximg/fa8ab644-cd40-474a-8f3b-5d00cdaf75e8.jpg", parameters={}
+2023-06-30 13:32:54.621 DEBUG 6432 --- [http-nio-9000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.UserInfoController#getGoodsImg(String)
+2023-06-30 13:32:54.623 DEBUG 6432 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'image/png', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [image/png]
+2023-06-30 13:32:54.623 DEBUG 6432 --- [http-nio-9000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[B@32f3de19]
+2023-06-30 13:32:54.625 DEBUG 6432 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:33:46.948 DEBUG 6432 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/allgoodsinfo", parameters={}
+2023-06-30 13:33:46.948 DEBUG 6432 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.GoodsController#getallgoodsinfo()
+2023-06-30 13:33:46.979 DEBUG 6432 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 13:33:46.979 DEBUG 6432 --- [http-nio-9000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["[{"category":"summer","createTime":1688047363000,"deleted":0,"goodsdescribe":"品牌：南极人尺码：M L XL 2XL 3 (truncated)...]
+2023-06-30 13:33:46.979 DEBUG 6432 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-06-30 13:33:46.986 DEBUG 6432 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/getuserallinfo?username=username", parameters={masked}
+2023-06-30 13:33:46.986 DEBUG 6432 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.test.controller.LoginController#userLogin(String, User, Userinfo)
+2023-06-30 13:33:46.992 DEBUG 6432 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-06-30 13:33:46.992 DEBUG 6432 --- [http-nio-9000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"password":"7c6a180b36896a0a8c02787eeafb0e4c","createTime":1688085716000,"id":"1467068952348721153 (truncated)...]
+2023-06-30 13:33:46.993 DEBUG 6432 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

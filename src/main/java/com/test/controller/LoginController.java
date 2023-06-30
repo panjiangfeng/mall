@@ -10,6 +10,7 @@ import com.test.mapper.UserMapper;
 import com.test.mapper.UserinfoMapper;
 import com.test.mapper.UserorderMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
@@ -30,8 +31,9 @@ public class LoginController {
     {  //接收传来的参数，参数是user对象 参数格式要一致
         String str = "error";
         HashMap<String, Object> map = new HashMap<>(); // 自定义要查的条件
+        String md5 = DigestUtils.md5DigestAsHex(password.getBytes());
         map.put("username",username);
-        map.put("password",password);
+        map.put("password",md5);
         List<User> users = userMapper.selectByMap(map);
         if (!users.isEmpty()) {
             str = "normaluser";             //设置为普通用户

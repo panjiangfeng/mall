@@ -6,11 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-/**
- * Description:
- * User: 剑指屎山
- * Date: 2023-06-29-23:11
- */
+
 @RestControllerAdvice
 @Slf4j
 public class GlobalExceptionHandler {

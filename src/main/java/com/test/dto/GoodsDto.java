@@ -4,11 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * Description:
- * User: 剑指屎山
- * Date: 2023-06-25-1:14
- */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

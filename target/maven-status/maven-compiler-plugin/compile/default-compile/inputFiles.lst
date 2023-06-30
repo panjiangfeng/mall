@@ -15,6 +15,7 @@ F:\project\mall\src\main\java\com\test\mapper\UserorderMapper.java
 F:\project\mall\src\main\java\com\test\mapper\UserinfoMapper.java
 F:\project\mall\src\main\java\com\test\controller\LoginController.java
 F:\project\mall\src\main\java\com\test\controller\OrderController.java
+F:\project\mall\src\main\java\com\test\config\GlobalExceptionHandler.java
 F:\project\mall\src\main\java\com\test\util\MD5Utils.java
 F:\project\mall\src\main\java\com\test\controller\UserConteroller.java
 F:\project\mall\src\main\java\com\test\util\makeDirectory.java

@@ -1,4 +1,5 @@
 com\test\entity\User.class
+com\test\config\GlobalExceptionHandler.class
 com\test\mapper\UserorderMapper.class
 com\test\controller\AdminController.class
 com\test\entity\Goodsimg.class
